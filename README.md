@@ -7,6 +7,7 @@ Value-at-Risk (VaR) says "on 99% of days, we won't lose more than X." If the mod
 ## Models compared
 Historical simulation, Normal (variance-covariance), EWMA (RiskMetrics, lambda 0.94), and Filtered Historical Simulation (EWMA volatility plus the empirical tails). Each forecast for day *t* uses only returns before *t* (a test enforces this).
 
+
 ## Statistical tests
 - **Kupiec POF:** is the breach rate consistent with the promised 1%?
 - **Christoffersen independence:** do breaches cluster, meaning the model reacts too slowly when volatility jumps?
